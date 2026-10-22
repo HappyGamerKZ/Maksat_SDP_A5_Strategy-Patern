@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class OrderScheduler {
+public class MonolithicOrderScheduler {
 
     public List<DishOrder> schedule(List<DishOrder> incomingOrders, SchedulingType type) {
         if (incomingOrders == null || incomingOrders.isEmpty()) {
